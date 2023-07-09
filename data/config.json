@@ -1,0 +1,50 @@
+{
+    "title": "Stackbit Exto Theme",
+    "color_scheme": "light",
+    "accent_color": "yellow",
+    "header": {
+        "title": "GIUSEPPE DE VIVO (beta)",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Tesi",
+                "url": "/tesi/",
+                "style": "link",
+                "new_window": false
+            },
+
+            {
+                "label": "Contattami",
+                "url": "/contatti/",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/peppedevivo",
+                "style": "icon",
+                "icon": "twitter",
+                "new_window": true
+            },
+
+
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/giuseppe-de-vivo-2a279a130",
+                "style": "icon",
+                "icon": "linkedin",
+                "new_window": true
+            }
+        ]
+    },
+    "domain": "https://happy-oak-5ea74.netlify.app"
+}

@@ -1,24 +1,54 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-  <head>
-    {{ partial "meta.html" . }}
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-    {{ partial "css.html" . }}
-  </head>
-  <body>
-    {{ if ne .Site.Params.preloader false }}
-    <!-- Preloader -->
-    <div id="preloader">
-      <div id="status"></div>
-    </div>
-    {{ end }}
+<!doctype html>
+<html lang="en">
+    <head>
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBKXDK8');</script>
+<!-- End Google Tag Manager -->
+        <title>{{ if .Params.seo.title }}{{ $.Params.seo.title }}{{ else }}{{ print print $.Title " | " $.Site.Data.config.title }}{{ end }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="{{ .Params.seo.description | default "" }}" />
+        {{ if .Params.seo.robots }}
+        <meta name="robots" content="{{ delimit $.Params.seo.robots "," }}">
+        {{ end }}
+        {{ range $meta := .Params.seo.extra }}
+          {{ $key_name := $meta.keyName | default "name" }}
+          {{ if $meta.relativeUrl }}
+            {{ if $.Site.Data.config.domain }}
+              {{ $domain := trim $.Site.Data.config.domain "/" }}
+              {{ $rel_url := $meta.value | relURL }}
+              {{ $full_url := print $domain $rel_url }}
+              <meta {{ $key_name }}="{{ $meta.name }}" content="{{ $full_url }}">
+            {{ end }}
+          {{ else }}
+            <meta {{ $key_name }}="{{ $meta.name }}" content="{{ $meta.value }}">
+          {{ end }}
+        {{ end }}
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10 "targetPath" "css/main.css")).Permalink }}">
+        {{ if .Site.Data.config.favicon }}
+        <link rel="icon" href="{{ $.Site.Data.config.favicon | relURL }}">
+        {{ end }}
 
-    {{ block "main" . }}
-    {{ end }}
-
-    <!-- Back To Top Button -->
-    <div id="backtotop"><a href="#"></a></div>
-
-    {{ partial "javascript.html" . }}
-  </body>
+    </head>
+    <body class="palette-{{ .Site.Data.config.color_scheme }} accent-{{ .Site.Data.config.accent_color }}">
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBKXDK8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <div id="page" class="site">
+          {{ partial "header.html" . }}
+          <main id="content" class="site-content">
+            {{ block "content" . }}{{ end }}
+          </main><!-- .site-content -->
+          {{ partial "footer.html" . }}
+        </div><!-- .site -->
+        <script src="{{ "js/init.js" | relURL }}"></script>
+        <script src="{{ "js/page-load.js" | relURL }}"></script>
+    </body>
 </html>
