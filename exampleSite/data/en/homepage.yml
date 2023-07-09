@@ -124,9 +124,3 @@ testimonial:
       designation: "Studente di Economia e Commercio"
       image: "images/avater.png"
       content: "Simone è riuscito a prepararmi per il test di ammissione per entrare nella Wagner. L'unico difetto è che tifa Parma"
-
-      # testimonial item loop
-      - name: "Giorgio Chiellini"
-        designation: "Studente di Economia e Commercio"
-        image: "images/avater.png"
-        content: "Simone è riuscito a prepararmi per il test di ammissione per entrare nella Wagner. L'unico difetto è che tifa Parma"
