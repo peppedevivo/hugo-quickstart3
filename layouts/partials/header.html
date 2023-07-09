@@ -1,66 +1,68 @@
-{{ "<!-- Fixed Navigation -->" | safeHTML }}
-{{ if .Site.Params.menufixed }}
-<section class="header navigation top-bar">
-{{ else }}
-<section class="header navigation">
-{{ end }}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
-                        <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
-                    </a>
-                    <div class="d-flex align-items-center">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-                            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="tf-ion-android-menu"></span>
-                        </button>
-                        <!-- Icones & drapeaux de choix des langues -->
-                        <div id="drapeaux" class="select-language d-block d-lg-none">
-                            <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
-                            {{ range .Site.Params.listeLangues }}
-                            {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
-                            {{ end }}
-                        </div>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navigation">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
-                            </li>
-                            {{ range site.Menus.nav }}
-                            {{ if .HasChildren }}
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    {{ .Name }}
-                                </a>
-                                <div class="dropdown-menu">
-                                    {{ range .Children }}
-                                    <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
-                                    {{ end }}
-                                </div>
-                            </li>
-                            {{ else }}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
-                            </li>
-                            {{ end }}
-                            {{ end }}
-                            <li class="nav-item d-none d-lg-block">
-                                <!-- Icones & drapeaux de choix des langues -->
-                                <div class="select-language nav-link">
-                                    <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
-                                    {{ range .Site.Params.listeLangues }}
-                                    {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
-                                    {{ end }}
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand" href="{{ site.BaseURL | absLangURL }}">
+        {{ with site.Params.logo}}
+        <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+        {{ else }}{{site.Title}}{{end}}
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          {{ range site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+              {{ .Name }}
+            </a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              <a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+              {{ end }}
             </div>
-        </div>
-    </div>
-</section>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+
+          <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
+        </ul>
+
+        {{ if site.Params.navigation_button.enable }}
+        {{ with site.Params.navigation_button }}
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-primary ml-3">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}

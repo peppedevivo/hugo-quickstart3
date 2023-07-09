@@ -1,79 +1,81 @@
-<h1 align=center>Navigator Hugo</h1>
-<p align=center>This theme is highly customizable and aimed exclusively at presenting any business or corporate profile.</p>
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fsite%2Fen%2F&form_factor=desktop">Page Speed (93%)🚀</a>
-</h2>
+<h1 align=center>Bigspring Light</h1>
+
+<p align=center>It is an ideal theme for Digital Agency, Creative Agency, Marketing Agency, Design Studios, Digital Marketing Agencies, and other business service websites. </p>
+
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/bigspring-light" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fbigspring%2Fsite%2F&form_factor=desktop">Page Speed (95%)🚀</a></h2>
 
 
+<h2 align=center>We are thrilled to announce bigspring Pro today with lots of new features . For more Details please <a href="https://gethugothemes.com/products/bigspring">check here<a></h2>
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.62.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.64.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.64.0&color=f00&logo=hugo" />
   </a>
 
-  <a href="https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/gethugothemes/navigator-hugo" alt="license"></a>
+  <a href="https://github.com/themefisher/bigspring-light/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/themefisher/bigspring-hugo" alt="license"></a>
 
-  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/navigator-hugo" alt="code size">
+  <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-hugo" alt="code size">
 
-  <a href="https://github.com/gethugothemes/navigator-hugo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/gethugothemes/navigator-hugo" alt="contributors"></a>
+  <a href="https://github.com/themefisher/bigspring-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-hugo" alt="contributors"></a>
 
   <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
     <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
       alt="follow on Twitter"></a>
 </p>
 
-
+---
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/37659754/54080047-38a01b80-4312-11e9-8aa2-1e716c07c0f2.gif" alt="screenshot" width="100%">
+  <img src="https://demo.gethugothemes.com/thumbnails/bigspring-light.png" alt="screenshot" width="100%">
 </p>
 
+---
 
-## 🔑Features
-- 📄 7+ Pre-Designed Pages
-- 🏠 Multiple homepages (2)
-- 🌍 Multiple language support (Fr, En)
-- 📊 Google Analytics support
-- ⚙️ Netlify settings predefine
-- 🅱️ Bootstrap Based
-- ✉️ Contact form support
-- 🔄 GDPR consent enabled
-- 🗺️ Google Maps support
-- 🚀 Google Page Speed optimized
-- 🌐 Open Graph meta tag
-- 🐦 Twitter Card meta tag
+## 🔑Discover Free & Premium Features
 
-## 📄 7+ Pre-Designed Pages
-
-- 🏠 Home Page
-- ℹ️ About Page
-- 📞 Contact Page
-- 📄 Portfolio Page
-- 📄 Blog Page
-- 📝 Blog Single Page
-- 📧 Contact Page
+Featurees | [Bigspring LIght](https://github.com/themefisher/bigspring-light)  | [Bigspring Premium](https://gethugothemes.com/products/bigspring/?ref=github) |
+:------------ |    :----:    |     :----:    |
+Google analytics support                   | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+CSS and Js bundle with hugo pipe           | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Netlify settings predefine                 | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)               |
+Color and fonts variable in config file    | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Contact form Support                       | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+GDPR consent enable                        | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Google page speed optimized                | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Open graph meta tag                        | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Twitter card meta tag                      | ![](https://demo.gethugothemes.com/icons/tick.png) | ![](https://demo.gethugothemes.com/icons/tick.png)                |
+Dark and Light mode available              | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png)          |
+image optimize with hugo pipe              | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png)          |
+Google font loads from webfont loader      | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png)          |
+Multiple language support (En, De, Zh-Cn, Hi, Jp, ko, Fr, Es, Id, It, Ru)      | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+Caching enable                            | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+Multiple author support                    | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+17+ Premium Pages                          | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+Site verification support (google, bing, baidu)       | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+Priority Support                           | ![](https://demo.gethugothemes.com/icons/x.png) | ![](https://demo.gethugothemes.com/icons/tick.png) |
+Get It Now | [![download-light](https://demo.gethugothemes.com/icons/download.png)](https://github.com/themefisher/bigspring-light/archive/refs/heads/master.zip) | [![download](https://demo.gethugothemes.com/icons/grab.png)](https://gethugothemes.com/products/bigspring/?ref=github)
 
 ## 🔧Local development
 
 ```bash
 # clone the repository
-git clone git@github.com:gethugothemes/navigator-hugo.git
+git clone git@github.com:themefisher/bigspring-light.git
 
 # cd in the project directory
-$ cd navigator-hugo/exampleSite/
+$ cd bigspring-light/exampleSite/
 
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
 
-Or Check out [Full Documentation](https://docs.gethugothemes.com/navigator/?ref=github).
-
+Or Check out [Full Documentation](https://docs.gethugothemes.com/bigspring/?ref=github).
 
 ## ⚙️Deployment and hosting
 
 [![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/navigator-hugo)
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/bigspring-hugo)
 
 Follow the steps.
 
@@ -81,19 +83,20 @@ Follow the steps.
 <!-- reporting issue -->
 ## 🐞Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the navigator Template. Please Search [existing
-issues](https://github.com/gethugothemes/navigator-hugo/issues). Someone may have already reported the same problem.
+We use GitHub Issues as the official bug tracker for the Bigspring Template. Please Search [existing
+issues](https://github.com/themefisher/bigspring-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/gethugothemes/navigator-hugo/issues).
-
+issue](https://github.com/themefisher/bigspring-hugo/issues).
 
 ## 📱Submit Your Website To Our Showcase
 
-Are you using Navigator Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+Are you using Bigspring Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
 Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
 
-[Submit](https://gethugothemes.com/showcase?submit=show) your Navigator Hugo powered website.
+View all the websites powered by Bigspring Hugo from [here](https://gethugothemes.com/showcase?theme=bigspring). 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Bigspring Hugo powered website.
 
 <!-- licence -->
 ## 📄License
@@ -101,7 +104,7 @@ Our showcase aims to demonstrate to the world what amazing websites people like 
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
-**Code License:** Released under the [MIT](https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/themefisher/bigspring-hugo/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
 share those images.
@@ -111,24 +114,21 @@ share those images.
 
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
-- [Filterizr](https://yiotis.net/filterizr/)
-- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2)
-- [Parallax](https://ianlunn.co.uk/plugins/jquery-parallax)
+- [Font Awesome Icons](https://fontawesome.com)
 - [Slick Slider](https://kenwheeler.github.io/slick/)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 - [Google Fonts](https://fonts.google.com/)
-- [All Contributors](https://github.com/gethugothemes/navigator-hugo/graphs/contributors)
+- [All Contributors](https://github.com/themefisher/bigspring-hugo/graphs/contributors)
 
-## 👨‍💻Hire Us
+##👨‍💻Hire Us
 
 Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
 
 If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
-[services](https://gethugothemes.com/services/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme)**
+[Services](https://gethugothemes.com/services/?utm_source=bigspring_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
-## Premium Themes By Us
+## 💎Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna/) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=bigspring_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Orbitor](https://demo.gethugothemes.com/thumbnails/orbitor.png)](https://gethugothemes.com/products/orbitor/) | [![Andromeda](https://demo.gethugothemes.com/thumbnails/andromeda.png)](https://gethugothemes.com/products/andromeda/) |
 |:---:|:---:|:---:|
-| **Get 55+ Premium Hugo Themes Bundle** | **Meghna** | **Bigspring** |
+| **Get 55+ Premium Hugo Themes Bundle**| **Orbitor** | **Andromeda** |
