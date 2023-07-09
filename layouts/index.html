@@ -1,8 +1,35 @@
 {{ define "main" }}
-  {{ with .Site.Data.home.hero }}{{ partial "sections/hero.html" . }}{{ end }}
-  {{ with .Site.Data.home.brands }}{{ partial "sections/brands.html" . }}{{ end }}
-  {{ with .Site.Data.home.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }}
-  {{ with .Site.Data.home.services }}{{ partial "sections/services.html" . }}{{ end }}
-  {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
-  {{ with .Site.Data.home.cta }}{{ partial "sections/cta.html" . }}{{ end }}
+
+    {{ if .Site.Params.hero }}
+    {{ partial "hero.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section1 }}
+    {{ partial "section1.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section2 }}
+    {{ partial "section2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section3 }}
+    {{ partial "section3.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section4 }}
+    {{ partial "section4.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section5 }}
+    {{ partial "section5.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.sidebar }}
+    {{ partial "sidebar.html" . }}
+    {{ end }}
+    
 {{ end }}

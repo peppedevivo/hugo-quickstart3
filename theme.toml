@@ -1,14 +1,12 @@
-name = "Up Business Theme"
+name = "Hugo Fresh"
 license = "MIT"
-licenselink = "https://gitlab.com/writeonlyhugo/up-business-theme/-/blob/master/LICENSE"
-description = "A clean and modern landing page website inspired by clean and modern illustrations."
-
-homepage = "https://gitlab.com/writeonlyhugo/up-business-theme/"
-demosite = "https://writeonlyhugo.gitlab.io/up-business-demo/"
-
-tags = ["blog", "responsive", "personal", "light", "bootstrap", "portfolio", "landing", "company", "modern"]
+licenselink = "https://github.com/StefMa/hugo-fresh/blob/master/LICENSE.md"
+description = "A Hugo adaptation of the Fresh theme from CSS Ninja"
+homepage = "https://github.com/StefMa/hugo-fresh"
+tags = ["responsive", "one page", "light", "onepage", "company", "clean", "landing page"]
 features = []
+min_version = "0.45"
 
 [author]
-  name = "Iago Bozza"
-  homepage = "https://writeonlycode.io/"
+  name = "Stefan M."
+  homepage = "https://github.com/StefMa"
