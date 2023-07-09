@@ -1,34 +1,39 @@
-# Raditian Free Hugo Theme
-###### Raditian Hugo Theme for Personal Websites
+# Hugo Up Business Theme
 
-A free Hugo Theme by Radity: Modern, Fast, Fresh and of course responsive.
+Up Business is a clean and modern landing page, inspired on light illustrations
+with a modern look, that can be used for companies or to showcase a product.
 
-Demo: https://raditian-hugo.radity.com
+![Screenshot](https://gitlab.com/writeonlyhugo/up-business-theme/-/raw/f4e11eb377d9f7f1d8305d278538f8af05d365e5/images/screenshot.png)
 
-<img src="https://raditycmswebsite-live-5f5ab2ec57ec4907b-b52c0bb.divio-media.net/filer_public/73/76/7376fcbd-46ff-4e8b-85b6-e4f9175658ad/01_-_mainpage_exportable_copy_31x_2.png"  width="100%" alt="raditian-free-hugo-theme">
+## Live Demo
 
-## Download
+See [here](https://writeonlyhugo.gitlab.io/up-business-demo/).
 
-- Clone the repo: `git clone https://github.com/radity/raditian-free-hugo-theme.git`.
-- [Download from Github](https://github.com/radity/raditian-free-hugo-theme/archive/master.zip).
+## Quick Start
 
-## Installation
-#### Install Hugo
-    To use raditian-free-hugo-theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
+If you are creating a new website, the quickest way to get up and running is to
+clone the demo website.
 
-#### Create your personal website and run
-    > hugo new site <your website's name>
-    > cd <your website's name>/themes/
-    Clone the raditian-free-hugo-theme (git clone https://github.com/radity/raditian-free-hugo-theme.git).
-    Replace the "config.toml" file that in the project's root directory with themes/raditian-free-hugo-theme/exampleSite/config.toml
-    > hugo server -D
-    The theme is alive on http://localhost:1313/ 
+```bash
+git clone https://gitlab.com/writeonlyhugo/up-business-demo.git
+```
 
-## License
+Alternatively, you can clone just the theme to your theme folder:
 
-- Copyright 2020 Radity (https://radity.com/)
-- Licensed under MIT (https://github.com/radity/raditian-free-hugo-theme/blob/master/LICENSE)
+```bash
+git clone https://gitlab.com/writeonlyhugo/up-business-theme.git themes/up-business-theme
+```
 
-## Support
+The folder `hugoBasicExample` contains a working version of a website with the
+theme. It includes: the configuration file `config.yaml`, the content folder
+`content` and the `data` folder. It's a good idea to copy this over to the
+project folder to get an initial version of the website up and running.
 
-If you have any problem please do not hesitate to [contact us](https://radity.com/en/contact/).
+## Credits
+
+Hugo Up Business Theme is based on a [Figma Design by Abell
+Vo](https://www.figma.com/community/file/1022163547182520272).
+
+## License 
+
+Up Business is licensed under the MIT license.
