@@ -1,33 +1,42 @@
-<header id="masthead" class="site-header outer">
-  <div class="inner">
-    <div class="site-header-inside">
-      <div class="site-branding">
-        {{ if .Site.Data.config.header.logo_img }}
-        <p class="site-logo">
-          <a href="{{ "/" | relURL }}"><img src="{{ $.Site.Data.config.header.logo_img | relURL }}" alt="{{ $.Site.Data.config.header.logo_img_alt }}" /></a>
-        </p>
-        {{ else }}
-        <p class="site-title"><a href='{{ "/" | relURL }}'>{{ $.Site.Data.config.header.title }}</a></p>
-        {{ end }}
-      </div><!-- .site-branding -->
-      {{ if .Site.Data.config.header.has_nav }}
-      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
-      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
-        <div class="site-nav-inside">
-          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
-          <ul class="menu">
-            {{ range $action := $.Site.Data.config.header.nav_links }}
-              {{ $pageUrl := trim $.URL "/" }}
-              {{ $actionUrl := trim $action.url "/" }}
-              <li class="menu-item{{ if eq $pageUrl $actionUrl }} current-menu-item{{ end }}{{ if ne $action.style "link" }} menu-button{{ end }}">
-                {{ $include_dict := dict "action" $action }}
-                {{ partial "action.html" $include_dict }}
-              </li>
-            {{ end }}
-          </ul><!-- .menu -->
-        </div><!-- .site-nav-inside -->
-      </nav><!-- .site-navigation -->
-      {{ end }}
-    </div><!-- .site-header-inside -->
-  </div><!-- .inner -->
-</header><!-- .site-header -->
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
+        <span>{{ .Site.Params.logo.text1 }}</span>
+        <span>{{ .Site.Params.logo.text2 }}</span>
+        <!-- <img
+          class="img-responsive"
+          src="img/logo-dark.png"
+          srcset="img/logo-dark.png 1x, img/logo-dark@2x.png 2x"
+          alt="Header Logo"
+        /> -->
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}">HOME</a>
+          </li>
+          {{ range .Site.Menus.header }}
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="{{ .URL }}"
+              >{{ .Name | upper }}</a
+            >
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>

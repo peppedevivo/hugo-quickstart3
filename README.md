@@ -1,74 +1,34 @@
-# ✨ happy-oak ✨
+# Raditian Free Hugo Theme
+###### Raditian Hugo Theme for Personal Websites
 
-<img src="https://themes.stackbit.com/images/exto-demo-1024x768.png" width="600">
+A free Hugo Theme by Radity: Modern, Fast, Fresh and of course responsive.
 
-This is a [Hugo](https://gohugo.io) site using Git as a [CMS](https://en.wikipedia.org/wiki/Content_management_system). It was created with [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) in under a minute.
+Demo: https://raditian-hugo.radity.com
 
-You can [create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) just like this one, or explore some variations. How about a different:
+<img src="https://raditycmswebsite-live-5f5ab2ec57ec4907b-b52c0bb.divio-media.net/filer_public/73/76/7376fcbd-46ff-4e8b-85b6-e4f9175658ad/01_-_mainpage_exportable_copy_31x_2.png"  width="100%" alt="raditian-free-hugo-theme">
 
-<details>
-        <summary>🎨 &nbsp;<strong>Look</strong></summary>
-        <ul>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A &quot;do it yourself&quot; Stackbit theme</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/app-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Mobile application landing page</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/snipcart/stackbit-theme-planty&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">An e-commerce theme powered by Snipcart</a></li>
-                </ul>
-</details>
+## Download
 
-<details>
-        <summary>✏️ &nbsp;<strong>CMS</strong></summary>
-        <ul>
-                <li><a href="https://app.stackbit.com/create?cms=netlifycms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Netlify CMS</a></li>
-                <li><a href="https://app.stackbit.com/create?cms=forestry&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Forestry</a></li>
-                <li><a href="https://app.stackbit.com/create?cms=sanity&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Sanity</a></li>
-                </ul>
-</details>
+- Clone the repo: `git clone https://github.com/radity/raditian-free-hugo-theme.git`.
+- [Download from Github](https://github.com/radity/raditian-free-hugo-theme/archive/master.zip).
 
-<details>
-        <summary>⚙️ &nbsp;<strong>Static site generator</strong></summary>
-        <ul>
-                <li><a href="https://app.stackbit.com/create?ssg=gatsby&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Gatsby</a></li>
-                <li><a href="https://app.stackbit.com/create?ssg=nextjs&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Next.js</a></li>
-                <li><a href="https://app.stackbit.com/create?ssg=jekyll&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Jekyll</a></li>
-                </ul>
-</details>
+## Installation
+#### Install Hugo
+    To use raditian-free-hugo-theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
 
-## Develop Locally
+#### Create your personal website and run
+    > hugo new site <your website's name>
+    > cd <your website's name>/themes/
+    Clone the raditian-free-hugo-theme (git clone https://github.com/radity/raditian-free-hugo-theme.git).
+    Replace the "config.toml" file that in the project's root directory with themes/raditian-free-hugo-theme/exampleSite/config.toml
+    > hugo server -D
+    The theme is alive on http://localhost:1313/ 
 
-1. Follow the [installation guide](https://gohugo.io/getting-started/installing/) to install Hugo
+## License
 
-1. This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/) to handle SCSS – please ensure you have the Hugo extended version installed:
+- Copyright 2020 Radity (https://radity.com/)
+- Licensed under MIT (https://github.com/radity/raditian-free-hugo-theme/blob/master/LICENSE)
 
-        hugo version
+## Support
 
-
-
-1. Start the Hugo development server:
-
-        hugo server
-
-1. Open [http://localhost:1313/](http://localhost:1313/) in the browser
-
-1. 🎉
-
-## Editing Content
-
-To start editing your site, you can edit the included Markdown files.
-
-Alternatively, you can use the free on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
-
-[![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
-
-Here's a few resources to get you started:
-
-- 📺 &nbsp; [Editing Content](https://stackbit.link/project-readme-editing-video)
-- 📺 &nbsp; [Adding, Reordering and Deleting Items](https://stackbit.link/project-readme-adding-video)
-- 📺 &nbsp; [Collaboration](https://stackbit.link/project-readme-collaboration-video)
-- 📺 &nbsp; [Publishing](https://stackbit.link/project-readme-publishing-video)
-- 📚 &nbsp; [Stackbit Documentation](https://stackbit.link/project-readme-documentation)
-
-If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
-
-## Colophon
-
-Generated at `2021-07-19T21:11:33.271Z` by Stackbit version `0.3.53`.
+If you have any problem please do not hesitate to [contact us](https://radity.com/en/contact/).
