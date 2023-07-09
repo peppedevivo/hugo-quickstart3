@@ -1,36 +1,50 @@
 {{ define "main" }}
-  <section class="section blog-list py-5">
+
+{{ partial "page-title.html" . }}
+
+{{ "<!-- Blog Section Start -->" | safeHTML }}
+<section class="blog section" id="blog">
     <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-12 col-xl-6">
-          {{ with .Title }}
-            <h2 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
-          {{ end }}
-          {{ with .Params.description }}
-            <p class="text-black-61 text-center pb-3">{{ . }}</p>
-          {{ end }}
-        </div>
-      </div>
-      <div class="row g-4 pb-5">
-        {{ range (.Paginate .RegularPages).Pages }}
-        <div class="col-12 col-md-6 col-lg-4">
-          <a class="card text-decoration-none h-100" href="{{ .Permalink }}">
-            <div class="aspect-ratio-62-5">
-              {{ with ( partial "utilities/get-featured-image.html" . ) }}
-                {{ partial "utilities/card-img-top" . }}
-              {{ end }}
+        <div class="row">
+            {{ range (.Paginator 6).Pages }}
+            {{ "<!-- single blog post -->" | safeHTML }}
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" alt="Generic placeholder image">
+                    </div>
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                {{ .Params.author }}
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <a class="btn btn-main" href="{{ .Permalink }}">Read more</a>
+                </div>
+            </article>
+            {{ "<!-- /single blog post -->" | safeHTML }}
+            {{ end }}
+            <div class="col-12 text-center">
+                {{ template "_internal/pagination.html" . }}
             </div>
-            <div class="card-body">
-              <h5 class="card-title fw-semibold">{{ .Title }}</h5>
-              <p class="card-text text-black-61">{{ .Summary | plainify }}</p>
-            </div>
-          </a>
         </div>
-        {{ end }}
-      </div>
-      <div class="row pb-5">
-        {{ template "_internal/pagination.html" . }}
-      </div>
     </div>
-  </section>
+</section>
+{{ "<!-- Blog Section End -->" | safeHTML }}
+
 {{ end }}
+
