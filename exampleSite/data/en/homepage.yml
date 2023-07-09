@@ -18,34 +18,34 @@ features:
   # feature at the left of the image
   left_side:
     # feature item loop
-    - title: "Smooth Touch"
+    - title: "Puntualità"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Ripetizioni serie e precise, non dovrai mai temere ritardi!"
 
       # feature item loop
-    - title: "Elegant Design"
+    - title: "Competenza"
       icon: "tf-ion-ios-bell-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Troverai una persona preparata, che saprà sicuramente farti superare quell'interrogazione che ti spaventa"
 
       # feature item loop
-    - title: "Easy Pricing"
+    - title: "Prezzi vantaggiosi"
       icon: "tf-ion-ios-cart-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "I nostri prezzi modici sono adatti a tutte le tasche, con possibilità di rateizzare"
 
   # feature at the right of the image
   right_side:
     # feature item loop
-    - title: "Smooth Touch"
+    - title: "Velocità"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Per qualsiasi problema sempre sul pezzo e pronto a rispondere"
 
       # feature item loop
-    - title: "Elegant Design"
+    - title: "Prontezza"
       icon: "tf-ion-ios-bell-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
       # feature item loop
-    - title: "Easy Pricing"
+    - title: "Siamo pronti a tutto"
       icon: "tf-ion-ios-cart-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
@@ -62,7 +62,7 @@ promo:
 
 ############################# About Product #######################
 about_product:
-  enable: true
+  enable: false
   title: "Why Choose Apple Watch"
   items:
     # about product item loop
@@ -91,15 +91,15 @@ about_product:
 
 #################################### Products ########################
 products:
-  enable: true
+  enable: false
   title: "Checkout Our All Products"
 
 ################################## Subscription ###################
 subscription:
   enable: true
   bg_image: "images/call-to-action.jpg"
-  title: "Get Product Updates"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  title: "Scrivi per sapere subito come iniziare ad imparare!"
+  content: "Puoi lasciare un recapito qui, verrai contattato appena possibile"
   placeholder: "Your Email Address Here"
 
 ############################## Testimonial ##########################
@@ -108,19 +108,19 @@ testimonial:
   title: "Watch Review"
   testimonial_item:
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
+    - name: "Marco Parolo"
+      designation: "Studente del Liceo Scientifico"
       image: "images/avater.png"
       content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
+    - name: "Roberto Gagliardini"
+      designation: "Studente dell'ITIS"
       image: "images/avater.png"
       content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
+    - name: "Giorgio Chiellini"
+      designation: "Studente di Economia e Commercio"
       image: "images/avater.png"
       content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
