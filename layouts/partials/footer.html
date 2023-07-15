@@ -1,38 +1,23 @@
-<footer>
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ .Title }} {{ end }}</a>
-          <ul class="list-inline footer-menu">
-            {{ range site.Menus.footer }}
-            <li class="list-inline-item">
-              <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-          </ul>
-          <p class="copyright-text">{{ site.Params.copyright | markdownify }}</p>
-        </div>
+<footer class="footer">
+  <div class="footer__inner">
+    {{ if $.Site.Copyright }}
+      <div class="copyright copyright--user">
+        <span>{{ $.Site.Copyright | safeHTML }}</span>
+    {{ else }}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io">Hugo</a></span>
+    {{ end }}
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
-    </div>
   </div>
 </footer>
 
+{{ $menu := resources.Get "js/menu.js" | js.Build }}
+{{ $prism := resources.Get "js/prism.js" | js.Build }}
 
-<!-- Snipcart public key -->
-{{ with site.Params.snipcart }}
-{{ if .enable }}
-{{ with .snipcart_api }}
-<div hidden id="snipcart" data-api-key="{{.}}"></div>
-{{ end }}
-{{ end }}
-{{ end }}
+{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
 
-<!-- JS Plugins -->
-{{ range site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
-{{ end }}
+<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
 
-<!-- Main Script -->
-{{ $script := resources.Get "js/script.js" }}
-<script src="{{ $script.Permalink }}"></script>
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}
