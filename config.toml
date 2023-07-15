@@ -1,6 +1,11 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.90.0'
+
 baseurl = "https://example.com/"
 languageCode = "en-us"
-theme = "hugo-quickstart3"
+theme = "hugo-theme-terminal"
 paginate = 5
 
 [params]
