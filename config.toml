@@ -1,5 +1,6 @@
 baseurl = "https://example.com/"
 languageCode = "en-us"
+theme = "hugo-quickstart3"
 paginate = 5
 
 [params]
