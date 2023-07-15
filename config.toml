@@ -13,7 +13,7 @@ paginate = 5
   themeColor = "green"
   showMenuItems = 2
   fullWidthTheme = true
-  centerTheme = false
+  centerTheme = true
 
 [languages]
   [languages.en]
