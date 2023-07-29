@@ -1,18 +1,8 @@
 +++
-title = "Hello Friend"
-date = "2019-01-25"
-author = "Lorem Ipsum"
-cover = "ziToto.jpg"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante."
+title = "Finalmente scrivo qualcosa"
+date = "2023-07-29"
+author = "Artie Bucco"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. **Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
-
-> Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.
-
-Sed a leo id risus venenatis vulputate non quis nulla. Aenean nisl quam, lacinia pulvinar orci sit amet, eleifend eleifend dui. Nulla tempor ligula leo, eu vehicula quam condimentum a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla gravida tristique nunc sed semper. Morbi nec felis odio.
-
-- Sed efficitur, lacus ac scelerisque pellentesque, lectus risus dignissim nisl, fermentum semper lectus diam eget lacus.
-- Nunc ornare purus enim, id eleifend mauris vestibulum volutpat.
-- Aenean facilisis ut ipsum condimentum ultrices.
-- Fusce sed metus vulputate, lobortis purus et, finibus purus. Suspendisse quis posuere lorem. Vivamus vulputate nec risus in pulvinar.
+Finalmente scrivo qualcosa. E' anche il titolo che ho dato a questo post. Era una cosa che volevo fare da molto quella di, appunto, scrivere. Diciamo che questo è un po' il mio ingresso. Ma lasciamo nabdo alle ciance.
+Nemmeno a farlo appost è una notte piovosa, sagome di fulmini appaiono alla mia finestra, rumori di tuoni riempiono la stanza. E' il mio penultimo giorno di ferie. Ho passato quasi l'intera ferie a segarmi. Forse è un giudizio un po' troppo duro, ma ci ho speso molte ore, e vedo che è una cosa dove ne spendo molte di più. Ho delle specie di relazioni con ragazze, mi rinchiudo nella stanza e parlo con loro. Finisce sempre che per un motivo o per un altro (tutti stupidi) finisco con il cazzo in mano. Ma fosse questo il problema, sarebbe relativo. Il problema è la quantità di ore che spendo in questa attività. Interi pomeriggi, intere sere. Interi giorni, qualche volta. E va bene segarsi, ma non mi sembra il miglior modo di passare il tempo. E io ogni volta ci rimango male, perchè la so sta cosa. Potrei fare tante altre cose (una su tutte leggere), ma alla fine mi ritrovo sempre con la mano che stringe il cazzo e che da fiato alla mia tromba sfiatata. Mi riprometto sempre che non lo farò più, che è l'ultima volta. Mi ero ripromesso che questa settimana di ferie non sarebbe finita così, ma alla fine è successo. Io penso che sia dovuto a qullo che l'Ebreo dice di essere il mio atteggiamento che tende a trovare le situazioni di comodo: quando si tratta di mettermi in gioco, sparisco. O meglio ancora, vado a ritrovarmi solo in situazioni in cui sto comodo. Cercare una ragazza su Omegle e farsi una sega tu Telegram è il mio modo di rimorchiare e scopare con le chiappe comode sul letto. E ripeto, va bene, ma non quando accade così spesso. Quando ruba tutto sto tempo. Quando è l'unica tua attività sessuale/sentimentale. Mi sento tipo un giocatore d'azzardo. é E' l'ultima volta, non succederà più, solo una puntatina, altri 5 minuti e vado via. E sono passate le ore, senza che tu te ne accorgia e senza che tu non abbia concluso niente. Ti ritrovi solo con lo schifo per te stesso addosso.
