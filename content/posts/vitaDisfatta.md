@@ -1,0 +1,7 @@
++++
+title = "Vita Disfatta"
+date = "2023-12-02"
+author = "Artie Bucco"
++++
+
+Sul comodino fazzoletti sporchi e lattina di coca cola. Sul letto libri, accendino e una busta di patatine. La canna è nel posacenere, sulla scrivania una bacinella con le unghia tagliate prima. Per terra le mutande e i calzini sporchi, sulla sedia le maglie intime e il plaid. Questa è la mia stanza, questa è la mia dissoluzione. Rappresenta bene il mio stato d'animo. Sono appena tornato a casa, dopo una serata quasi clean, ho bevuto solo una birra e un drink. Non so davvero come faccio a volte a fare sta vita. Se effettivamente faccio cose "impegnative" o sono solo io che prendo la cosa per più grande di quello che è. E' stata una settimana impegantiva. Mercoledì ho bevuto quasi 3 litri di birra al bar, ieri sera ho fatto dritto da lavoro e sono tornato ubriaco marcio. Due canne come aperitivo. Cena a base di pesce e vino. Per concludere 3 negroni. Poi me ne sono tornato a casa a piedi e non contento mi sono fermato al McDonald, dove ho ordinato un chickenburger, una porzione di patatine e una coca cola. Poi mi sono alzato ho preso un chickenburger e sono tornato a casa. Stamattina mi sono svegliato e ho trovato la lattina di coca cola sul comodino e la busta di patatine sul letto. Non ricordo bene cosa ho fatto, come sempre i ricordi si dissolvono. Questa è la mia vita disfatta di questo periodo.
